@@ -1,0 +1,177 @@
+Services
+
+
+
+******************** mockapi SIMULATE APPIS FOR TESTING ********************
+
+
+*** POSTMAN Mock Api ***
+
+
+*** Puedes crear varias apis ***
+
+  https://www.mockable.io/
+  
+  http://demo5642715.mockable.io/api/users
+  http://demo5642715.mockable.io/api/superheroes
+
+
+*** Puedes crear apis genericas con datos genericos y json basicos ***
+
+  https://mockapi.io/projects
+
+  - ProjectSecret: unique project token (Each project gets its own unique base URL that all endpoints under it will share.)
+  - Api Prefix: 
+  - Resource name: name of resource
+
+    Resource
+
+      A resource refers to a specific data entity that can be accessed and manipulated through the API.
+
+
+
+
+superheroes
+
+{
+  "SuperHeroesResponse": {
+    "SuperHeroes": [
+      {
+        "id": 1,
+        "name": "Spider-Man",
+        "realName": "Peter Parker",
+        "powers": [
+          "super strength",
+          "wall-crawling",
+          "spider-sense",
+          "agility"
+        ],
+        "affiliation": "Avengers",
+        "origin": "bitten by a radioactive spider",
+        "archEnemy": "Green Goblin",
+        "baseOperations": "New York City",
+        "isMutant": false
+      },
+      {
+        "id": 2,
+        "name": "Iron Man",
+        "realName": "Tony Stark",
+        "powers": [
+          "genius-level intellect",
+          "powered armor suit"
+        ],
+        "affiliation": "Avengers",
+        "origin": "self-built armor after a life-threatening injury",
+        "archEnemy": "Mandarin",
+        "baseOperations": "Stark Tower, New York City",
+        "isMutant": false
+      },
+      {
+        "id": 3,
+        "name": "Wolverine",
+        "realName": "James Howlett",
+        "powers": [
+          "regeneration",
+          "animal-like senses",
+          "adamantium claws"
+        ],
+        "affiliation": "X-Men",
+        "origin": "mutation, weaponized by Weapon X program",
+        "archEnemy": "Sabretooth",
+        "baseOperations": "X-Mansion",
+        "isMutant": true
+      },
+      {
+        "id": 4,
+        "name": "Wonder Woman",
+        "realName": "Diana Prince",
+        "powers": [
+          "super strength",
+          "flight",
+          "combat skills",
+          "lasso of truth"
+        ],
+        "affiliation": "Justice League",
+        "origin": "Amazonian princess and demigoddess",
+        "archEnemy": "Ares",
+        "baseOperations": "Themyscira",
+        "isMutant": false
+      },
+      {
+        "id": 5,
+        "name": "Flash",
+        "realName": "Barry Allen",
+        "powers": [
+          "super speed",
+          "time travel",
+          "intangible passing through objects"
+        ],
+        "affiliation": "Justice League",
+        "origin": "struck by lightning and chemicals",
+        "archEnemy": "Reverse Flash",
+        "baseOperations": "Central City",
+        "isMutant": false
+      },
+      {
+        "id": 6,
+        "name": "Batman",
+        "realName": "Bruce Wayne",
+        "powers": [
+          "agility",
+          "master Martial Artist and arms",
+          "espionage"
+        ],
+        "affiliation": "Justice League",
+        "origin": "murder of his parents",
+        "archEnemy": "The Joker",
+        "baseOperations": "BadCave",
+        "isMutant": false
+      }
+    ]
+  }
+}
+
+
+users
+
+{
+  "UsersResponse": {
+    "Users": [
+      {
+        "user": "acevesadanjc@gmail.com",
+        "password": "aceves8512",
+        "id": "1"
+      },
+      {
+        "user": "ivory@hotmail.com",
+        "password": "patas2020",
+        "id": "2"
+      },
+      {
+        "user": "gagenes@gmail.com",
+        "password": "telmex2025",
+        "id": "3"
+      },
+      {
+        "user": "teressa24@hotmail.com",
+        "password": "teresita3344",
+        "id": "4"
+      },
+      {
+        "user": "elsaill97@hotmail.com",
+        "password": "4y4uvyFga04yXD1",
+        "id": "5"
+      },
+      {
+        "user": "gansito32@hotmail.com",
+        "password": "gamesa2025",
+        "id": "6"
+      },
+      {
+        "user": "hillton98@gmail.com",
+        "password": "hilton20252",
+        "id": "7"
+      }
+    ]
+  }
+}
